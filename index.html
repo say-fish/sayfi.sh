@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,33 +13,26 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
     <title>Sayfish</title>
-    <link rel="icon" type="image/x-icon" href="/assets/sayfish-icon.png" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/images/sayfish-icon.png"
+    />
   </head>
 
   <body>
     <div class="page">
-      <header class="header">
-        <div class="img-title">
-          <img src="../assets/sayfish-icon.png" />
-          <div class="title-subtitle">
-            <h1>Say Fish</h1>
-            <h3>Fast, safe, and easy to use SSH key infrastructure.</h3>
-          </div>
-        </div>
-        <hr />
-        <nav>
-          <ul>
-            <li>About</li>
-            <li>FAQ</li>
-            <li>Blog</li>
-            <li>Releases</li>
-          </ul>
-        </nav>
-      </header>
+      <div id="header"></div>
 
       <main class="content">
         <div class="content-text">
+          <h2>About us</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
             inventore eligendi nulla animi blanditiis? Minus, provident eaque.
@@ -68,11 +61,11 @@
               <div>
                 <p>Latest release</p>
                 <div class="button-icon">
-                  <p>1.3.2</p>
+                  <p class="release-number">1.3.2</p>
                   <img
                     fill="#fff"
                     class="arrow-down"
-                    src="../assets/arrow-down.svg"
+                    src="../assets/images/arrow-down.png"
                   />
                 </div>
               </div>
@@ -80,7 +73,13 @@
           </button>
         </div>
       </main>
-      <footer class="footer">sayfish 🄯 2025</footer>
+      <footer class="footer">
+        <p>sayfish 🄯 2025</p>
+        <a href="https://github.com/say-fish">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+      </footer>
     </div>
+    <script src="../assets/js/header.js"></script>
   </body>
 </html>
